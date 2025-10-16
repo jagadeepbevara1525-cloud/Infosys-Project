@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contract Upload</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Upload Your Contract</h1>
+        <p>Select a document to upload for review or processing.</p>
+
+        <form id="uploadForm">
+            <div class="file-input">
+                <input type="file" id="file" accept=".pdf,.doc,.docx">
+                <label for="file">Choose File</label>
+                <span id="fileName">No file chosen</span>
+            </div>
+            <button type="submit">Upload & Analyze</button>
+        </form>
+
+        <div id="status"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
